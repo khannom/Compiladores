@@ -1,0 +1,16 @@
+
+
+program --> "BEGIN" expr ";" programx "END"
+programx --> expr ";" programx
+programx -->
+expr --> term exprx
+exprx --> "+" term exprx
+exprx --> "-" term exprx
+exprx -->
+term --> factor termx
+termx --> "*" factor termx
+termx --> "/" factor termx
+termx -->
+factor --> "number"
+factor --> "(" expr ")"
+

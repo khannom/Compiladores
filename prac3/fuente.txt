@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+/*
+    El siguiente programa recibe e imprime elementos
+    de un arreglo invertidos.
+*/
+int main()
+{
+    int n;
+    cout<<"Ingrese la longitud del arreglo: ";
+    cin>>n;
+    int arreglo[n]
+    for(int i = 0; i < n; ++i)
+    {
+        cout<<"Ingrese el elemento "<<i<<": ";
+        cin>>arreglo[i];
+    }
+    // Imprimiendo el resultado
+    for(int i = n-1; i >= 0; --i)
+    {
+        cout<<arreglo[i]<<" "<<endl;
+    }
+    return 0;
+}

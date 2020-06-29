@@ -1,0 +1,4 @@
+identificador
+-12 -.2 +2.3
+"literal"
+int char bool float
